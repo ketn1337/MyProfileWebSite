@@ -5,13 +5,181 @@ body {
     font-size: 18px;
     line-height: 1;
     
-    color: darkslategray;
-    background-color: blanchedalmond;
+    color: rgb(185, 193, 196);
+    background-color: rgb(20, 38, 46);
 }
 
-.main {
-    width: 30%;
-    margin: auto;
-    margin-top: 16%;
+h1 {
+    margin: 0;
+}
+
+#me {
+    width: 190px;
+    margin-left: 38px;
+    margin-top: 44px;
+}
+
+#contacts {
+    margin-left: 220px;
+    margin-top: -246px;
     text-align: center;
+    width: 340px;
+    line-height: 1.5;
+    font-size: 30px;
+    padding: 10px 20px 0px 10px;
+    --background-color: gray;
+}
+
+#contactsList {
+    font-size: 20px;
+    text-align: left;
+}
+
+#tg {
+    width: 2rem;
+    margin-top: -6px;
+    margin-left: 252px;
+}
+
+#vk, #git {
+    width: 2rem;
+    margin-top: -6px;
+    margin-left: 35px;
+}
+
+
+#name {
+    width: 520px;
+    margin-top: 26px;
+    margin-left: 38px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(10, 19, 23);
+}
+
+#years {
+    width: 520px;
+    margin-top: 0px;
+    margin-left: 38px;
+    padding: 10px 10px;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(10, 19, 23);
+}
+
+#study {
+    width: 520px;
+    margin-top: 0px;
+    margin-left: 38px;
+    padding: 10px 10px;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(10, 19, 23);
+}
+
+#languages {
+    width: 260px;
+    margin-top: 20px;
+    margin-left: 38px;
+    font-size: 30px;
+    text-align: center;
+    --background-color: black;
+    line-height: 1.5;
+}
+
+#languagesList {
+    font-size: 20px;
+    text-align: left;
+}
+
+#skills {
+    width: 280px;
+    margin-top: -180px;
+    margin-left: 298px;
+    font-size: 30px;
+    text-align: center;
+    --background-color: gray;
+    line-height: 1.5;
+}
+
+#skillsList {
+    font-size: 20px;
+    text-align: left;
+}
+
+#divider {
+    margin-left: 620px;
+    margin-top: -713px;
+    --background-color: rgb(223, 202, 224);
+    background-color: rgb(10, 19, 23);
+    color: black;
+    width: 40px;
+    height: 100vh;
+}
+
+#aboutMeH {
+    width: 700px;
+    margin-left: 714px;
+    margin-top: -694px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(10, 19, 23);
+}
+
+#educationH {
+    width: 700px;
+    margin-left: 714px;
+    margin-top: 40px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(10, 19, 23);
+}
+
+#experienceH {
+    width: 700px;
+    margin-left: 714px;
+    margin-top: 40px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(10, 19, 23);
+}
+
+#aboutMe {
+    width: 700px;
+    height: 110px;
+    margin-left: 714px;
+    margin-top: -17px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7;
+    --background-color: white;
+}
+
+#education {
+    width: 700px;
+    height: 110px;
+    margin-left: 714px;
+    margin-top: -17px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7;
+    --background-color: white;
+}
+
+#experience {
+    width: 700px;
+    height: 110px;
+    margin-left: 714px;
+    margin-top: -17px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7;
+    --background-color: white;
 }
